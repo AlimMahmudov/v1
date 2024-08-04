@@ -1,0 +1,805 @@
+.Skill {
+  padding: 150px 0;
+  // background: red;
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .textStack {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      h1 {
+        color: rgb(226, 250, 207);
+        text-shadow: 0 0 10px #40be0e, 0 0 20px #40be0e, 0 0 30px #40be0e;
+      }
+      .line {
+        width: 404px;
+        height: 3px;
+        background: white;
+        border-radius: 10px;
+      }
+    }
+    .images {
+      gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 900px;
+
+      .stack1 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack1:hover {
+        background: #fd6601;
+        box-shadow: 0 0 10px #fd6601, 0 0 20px #fd6601, 0 0 30px #fd6601;
+        color: rgb(9, 28, 46);
+        border: solid 3px yellow;
+        transition: 0.4s;
+      }
+      ////////
+      .stack2 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack2:hover {
+        background: #0198fd;
+        box-shadow: 0 0 10px #01fdf0, 0 0 20px #01fdf0, 0 0 30px #01fdf0;
+        color: rgb(9, 28, 46);
+        border: solid 3px #84f5ef;
+        transition: 0.4s;
+      }
+      ////////
+      .stack3 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack3:hover {
+        background: #fde401;
+        box-shadow: 0 0 10px #fde401, 0 0 20px #fde401, 0 0 30px #fde401;
+        color: rgb(9, 28, 46);
+        border: solid 3px white;
+        transition: 0.4s;
+      }
+      ////////
+      .stack4 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack4:hover {
+        background: blue;
+        box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+        color: rgb(9, 28, 46);
+        border: solid 3px aqua;
+        transition: 0.4s;
+      }
+      ////////
+      .stack5 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack5:hover {
+        background: #fd01e8;
+        box-shadow: 0 0 10px #fd01e8, 0 0 20px #fd01e8, 0 0 30px #fd01e8;
+        color: rgb(9, 28, 46);
+        border: solid 3px rgb(235, 158, 222);
+        transition: 0.4s;
+      }
+      ////////
+      .stack6 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack6:hover {
+        background: blue;
+        box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+        color: rgb(9, 28, 46);
+        border: solid 3px rgb(150, 175, 245);
+        transition: 0.4s;
+      }
+      ////////
+      .stack7 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack7:hover {
+        background: #8301fd;
+        box-shadow: 0 0 10px #8301fd, 0 0 20px #8301fd, 0 0 30px #8301fd;
+        color: rgb(9, 28, 46);
+        border: solid 3px white;
+        transition: 0.4s;
+      }
+      ////////
+      .stack8 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack8:hover {
+        background: #fde401;
+        box-shadow: 0 0 10px #fde401, 0 0 20px #fde401, 0 0 30px #fde401;
+        color: rgb(9, 28, 46);
+        border: solid 3px white;
+        transition: 0.4s;
+      }
+      //////
+      .stack9 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack9:hover {
+        background: #b4b2b2;
+        box-shadow: 0 0 10px #b4b2b2, 0 0 20px #b4b2b2, 0 0 30px #b4b2b2;
+        color: rgb(9, 28, 46);
+        border: solid 3px white;
+        transition: 0.4s;
+      }
+      //////
+      .stack10 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack10:hover {
+        background: rgb(1, 1, 131);
+        box-shadow: 0 0 10px rgb(1, 1, 131), 0 0 20px rgb(1, 1, 131),
+          0 0 30px rgb(1, 1, 131);
+        color: rgb(9, 28, 46);
+        border: solid 3px rgb(57, 32, 196);
+        transition: 0.4s;
+      }
+      //////
+      .stack11 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack11:hover {
+        background: #27c201;
+        box-shadow: 0 0 10px #27c201, 0 0 20px #27c201, 0 0 30px #27c201;
+        color: rgb(9, 28, 46);
+        border: solid 3px white;
+        transition: 0.4s;
+      }
+      //////
+      .stack12 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack12:hover {
+        background: #b4b2b2;
+        box-shadow: 0 0 10px #b4b2b2, 0 0 20px #b4b2b2, 0 0 30px #b4b2b2;
+        color: rgb(9, 28, 46);
+        border: solid 3px #e3e3f5;
+        transition: 0.4s;
+      }
+      //////
+      .stack13 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack13:hover {
+        background: orangered;
+        box-shadow: 0 0 10px orangered, 0 0 20px orangered, 0 0 30px orangered;
+        color: rgb(9, 28, 46);
+        border: solid 3px rgb(241, 191, 115);
+        transition: 0.4s;
+      }
+      //////
+      .stack14 {
+        border-radius: 50px;
+        border: solid 3px #40be0e;
+        color: #40be0e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .stack14:hover {
+        background: rgb(0, 183, 255);
+        box-shadow: 0 0 10px rgb(0, 183, 255), 0 0 20px rgb(0, 183, 255),
+          0 0 30px rgb(0, 183, 255);
+        color: rgb(9, 28, 46);
+        border: solid 3px rgb(117, 211, 248);
+        transition: 0.4s;
+      }
+      //////
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .Skill {
+    .content {
+      .textStack {
+        display: flex;
+        flex-direction: none;
+        gap: 20px;
+
+        .line {
+          width: 300px;
+          height: 2px;
+          background: white;
+          border-radius: 10px;
+        }
+      }
+      .images {
+        display: flex;
+        width: 800px;
+        ////////
+        .stack1 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack2 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack3 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack4 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack5 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack6 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack7 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack8 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack9 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack10 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack11 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack12 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack13 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack14 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .Skill {
+    .content {
+      .textStack {
+        display: flex;
+        flex-direction: none;
+        gap: 20px;
+
+        .line {
+          width: 176px;
+          height: 2px;
+          background: white;
+          border-radius: 10px;
+        }
+      }
+      .images {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        ////////
+        .stack1 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack2 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack3 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack4 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack5 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack6 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack7 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack8 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack9 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack10 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack11 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack12 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack13 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack14 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .Skill {
+    .content {
+      .textStack {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .line {
+          width: 250px;
+          height: 2px;
+          background: white;
+          border-radius: 10px;
+        }
+      }
+      .images {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        // background: red;
+        ////////
+        .stack1 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack2 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack3 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack4 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack5 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack6 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack7 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack8 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack9 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack10 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack11 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack12 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack13 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack14 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .Skill {
+    .content {
+      .textStack {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .line {
+          width: 200px;
+          height: 2px;
+          background: white;
+          border-radius: 10px;
+        }
+      }
+      .images {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        // background: red;
+        ////////
+        .stack1 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack2 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack3 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack4 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack5 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack6 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack7 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        ////////
+        .stack8 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack9 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack10 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack11 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack12 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack13 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+        //////
+        .stack14 {
+          width: 80px;
+          height: 80px;
+          font-size: 45px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
