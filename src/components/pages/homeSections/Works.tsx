@@ -50,12 +50,12 @@ const Works = () => {
               <div className={scss.text}>
                 <h1>Temir</h1>
                 <p>
-                  Jordan's sneaker site offers information on models and
+                  Jordan&apos;s sneaker site offers information on models and
                   collections, including detailed descriptions, photos and
-                  reviews. The site provides information on the brand's history,
-                  news on upcoming releases and exclusive collections. Users can
-                  make purchases, subscribe to updates and participate in
-                  discussions.
+                  reviews. The site provides information on the brand&apos;s
+                  history, news on upcoming releases and exclusive collections.
+                  Users can make purchases, subscribe to updates and participate
+                  in discussions.
                 </p>
                 <div className={scss.box}>
                   <h3>
